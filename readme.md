@@ -12,7 +12,7 @@
 
 | Windows | Linux                                                                                                                                                                                                                                                                                 |
 |---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    install python using exe file.<br/> [download python 3.11 from here](https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe) file.     | [Detailed document](https://towardsdatascience.com/building-python-from-source-on-ubuntu-20-04-2ed29eec152b)<br/> or use `install_py.sh` [script](https://github.com/AsadBukharee/py_ig_api/blob/main/install_py.sh) , [bash help](https://linuxhint.com/30_bash_script_examples/#t1) |
+|    install python using exe file.<br/> [download python 3.11 from here](https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe) file.     | [Detailed document](https://towardsdatascience.com/building-python-from-source-on-ubuntu-20-04-2ed29eec152b)<br/> or use `install_py.sh` [script](https://github.com/AsadBukharee/chatGpt/blob/main/install_py.sh) , [bash help](https://linuxhint.com/30_bash_script_examples/#t1) |
 
 
 
