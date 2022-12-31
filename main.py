@@ -53,7 +53,7 @@ def main():
             try:
                 topic_to_search = topic[0].strip()
                 words_count = topic[1].strip()
-                file_name = f'{topic[2].strip()}.md'
+                file_name = f'{topic[2].strip()}{datetime.datetime.now().strftime("_%d_%m_%Y_%H_%M")}.md'
                 prompt = f'write me an article that must have minimum of {words_count} words on topic "{topic_to_search}" as a markdown format'
                 print(prompt)
                 response = openai.Completion.create(
