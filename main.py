@@ -1,3 +1,4 @@
+#!venv/Script/python
 import csv
 import datetime
 import os
