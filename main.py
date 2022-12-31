@@ -57,7 +57,7 @@ def main():
                 prompt = f'write me an article that must have minimum of {words_count} words on topic "{topic_to_search}" as a markdown format'
                 print(prompt)
                 response = openai.Completion.create(
-                    engine="text-davinci-002",
+                    engine="text-davinci-003",
                     prompt=prompt,
                     max_tokens=2048,
                     temperature=0.8,
