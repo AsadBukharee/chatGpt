@@ -1,3 +1,0 @@
-
-
-There are a number of reasons social media marketing is better than print media. First, social media marketing is more cost effective. You can reach a large audience for a fraction of the cost of print media. Second, social media marketing is more targeted. You can target your audience by age, gender, interests, and more. This ensures that your message is reaching the right people. Third, social media marketing is more engaging. People are more likely to interact with your brand on social media than they are with print media. Finally, social media marketing is more measurable. You can track your results and adjust your strategy accordingly.
