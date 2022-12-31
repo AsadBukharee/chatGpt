@@ -10,7 +10,7 @@ OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 CSV_FILES = os.path.join(os.curdir, "csv_files")
 
-WAQFY_KA_TIME = 5  # IN SECONDS.
+WAQFY_KA_TIME = 3  # IN SECONDS.
 if not os.path.exists(CSV_FILES):
     os.makedirs(CSV_FILES)
 
@@ -65,7 +65,7 @@ def main():
                     frequency_penalty=0,
                     presence_penalty=0
                 )
-                print(f"Topic {i + 1} of {len(topics)} loaded from ChatGPT successfully. ")
+                print(f"Topic {i} of {len(topics)-1} loaded from ChatGPT successfully. ")
             except Exception as e:
                 print("GPT Request Failed, Please check internet", str(e))
             time.sleep(WAQFY_KA_TIME)
@@ -76,7 +76,7 @@ def main():
                     with open(os.path.join(CSV_FILES, file_name), 'w') as f:
                         f.write(text)
                     print(f"FILE {file_name} of {len(text.split(' '))} words EXPORTED SUCCESSFULLY ")
-                    print("Going to sleep for 10 seconds.")
+                    print(f"Going to sleep for {WAQFY_KA_TIME} seconds.")
                 else:
                     print(f"Could not compose Markdown, check templates at line {i+1}")
             except Exception as e:
