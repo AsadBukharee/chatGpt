@@ -10,7 +10,7 @@ OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 CSV_FILES = os.path.join(os.curdir, "csv_files")
 
-WAQFY_KA_TIME = 3  # IN SECONDS.
+WAQFY_KA_TIME = 0  # IN SECONDS.
 if not os.path.exists(CSV_FILES):
     os.makedirs(CSV_FILES)
 
