@@ -25,7 +25,9 @@ as shown in the following image.
 
 #### create virtual environment to keep your code safe and harmless.
 
-`python -m venv venv --prompt=ig_api`
+`python -m venv venv --prompt=alias`
+
+alias will appear in the cli before cli path.
 
 #### activate environment.
 
